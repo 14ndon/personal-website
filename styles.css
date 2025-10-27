@@ -480,22 +480,13 @@ body {
 }
 
 .project-achievements {
-    list-style: none;
+    list-style: disc;
     margin: 1rem 0;
+    padding-left: 1.5rem;
 }
 
 .project-achievements li {
     margin-bottom: 0.5rem;
-    position: relative;
-    padding-left: 1.5rem;
-}
-
-.project-achievements li::before {
-    content: '✓';
-    color: #10b981;
-    font-weight: bold;
-    position: absolute;
-    left: 0;
 }
 
 .project-tech,
