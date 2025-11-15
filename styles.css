@@ -258,6 +258,28 @@ body {
     border-bottom-color: #1d4ed8;
 }
 
+/* General in-text link styling throughout the website */
+.content p a:not(.nav-link):not(.project-link):not(.art-link):not(.featured-link),
+.content li a:not(.nav-link):not(.project-link):not(.art-link):not(.featured-link),
+.project-achievements li a:not(.nav-link):not(.project-link):not(.art-link):not(.featured-link),
+.experience-details li a:not(.nav-link):not(.project-link):not(.art-link):not(.featured-link),
+.art-content p a:not(.nav-link):not(.project-link):not(.art-link):not(.featured-link) {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.content p a:not(.nav-link):not(.project-link):not(.art-link):not(.featured-link):hover,
+.content li a:not(.nav-link):not(.project-link):not(.art-link):not(.featured-link):hover,
+.project-achievements li a:not(.nav-link):not(.project-link):not(.art-link):not(.featured-link):hover,
+.experience-details li a:not(.nav-link):not(.project-link):not(.art-link):not(.featured-link):hover,
+.art-content p a:not(.nav-link):not(.project-link):not(.art-link):not(.featured-link):hover {
+    color: #1d4ed8;
+    border-bottom-color: #1d4ed8;
+}
+
 .highlight-box {
     background: rgba(240, 249, 255, 0.9);
     border: 1px solid #bae6fd;
